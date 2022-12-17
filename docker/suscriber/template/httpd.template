@@ -1,0 +1,14 @@
+{
+  "priority": 0,
+  "index_patterns": [
+    "httpd*"
+  ],
+  "template": {
+    "settings": {
+      "index": {
+        "refresh_interval": "30s",
+        "number_of_replicas": "0"
+      }
+    }
+  }
+}
